@@ -8,6 +8,8 @@ import { CheckboxControlValueAccessor } from '@angular/forms';
 import { CheckoutComponent } from './checkout/checkout.component';
 import { ThankYouComponent } from './thank-you/thank-you.component';
 import { CheckOrdersComponent } from './check-orders/check-orders.component';
+import { MyOrdersComponent } from './my-orders/my-orders.component';
+
 
 
 const routes: Routes = [  
@@ -19,6 +21,7 @@ const routes: Routes = [
   {path: 'checkout', component: CheckoutComponent},
   {path: 'thank-you', component: ThankYouComponent},
   {path: 'check-orders', component: CheckOrdersComponent},
+  {path: 'my-orders', component: MyOrdersComponent}
 ];
 
 @NgModule({

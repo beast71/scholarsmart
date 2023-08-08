@@ -15,6 +15,7 @@ import { CheckoutComponent } from './checkout/checkout.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { ThankYouComponent } from './thank-you/thank-you.component';
 import { CheckOrdersComponent } from './check-orders/check-orders.component';
+import { MyOrdersComponent } from './my-orders/my-orders.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import { CheckOrdersComponent } from './check-orders/check-orders.component';
     CheckoutComponent,
     ThankYouComponent,
     CheckOrdersComponent,
+    MyOrdersComponent,
   ],
   imports: [
     BrowserModule,
